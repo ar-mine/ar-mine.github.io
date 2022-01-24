@@ -1,2 +1,2 @@
-# armine.github.io
+# ar-mine.github.io
 My academic page.
