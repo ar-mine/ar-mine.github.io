@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Armine&#39;s Page</title>
+  
+  
+  <link href="https://ar-mine.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ar-mine.github.io/"/>
+  <updated>2022-01-25T04:20:00.000Z</updated>
+  <id>https://ar-mine.github.io/</id>
+  
+  <author>
+    <name>Armine</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="https://ar-mine.github.io/2022/01/27/about%20me/"/>
+    <id>https://ar-mine.github.io/2022/01/27/about%20me/</id>
+    <published>2022-01-27T15:03:33.493Z</published>
+    <updated>2022-01-25T04:20:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>I am graduating from <a href="https://www.ntu.edu.sg/">Nanyang Technology University(NTU), Singapore</a> and getting my Msc. degree in Computer Control and Automation in Feb, 2022. Before that, I received my B.Eng in Automation from <a href="https://www.hfut.edu.cn/">Hefei University of Technology(HFUT), China</a> in Jun, 2020. Previously, I tried to explore many fields and conducted a preliminary look, such as <a href="/2018/01/25/teleoperated-car-based-on-EEG/" title="Electroencephalography(EEG) interaction">Electroencephalography(EEG) interaction</a>, <a href="/2018/01/25/hexapod-robot/" title="hexopod robot">hexopod robot</a>, computer vision and <a href="/2018/01/25/deep-reinforcement-learning/" title="reinforcement learning">reinforcement learning</a>. </p><p>Recently, I am doing research on the filed of Human-Robot-Interaction(HRI) based on manipulator, such as <a href="/2021/04/01/human-robot-interaction/" title="handover">handover</a> and collision avoidance based on proximity sensors. And now I am finding a Research Assistant or PhD position. If you are interested in me, please feel free to contact me.</p><p><strong>Research interests</strong>: computer vision, machine learning and human robot interaction.</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;I am graduating from &lt;a href=&quot;https://www.ntu.edu.sg/&quot;&gt;Nanyang Technology University(NTU), Singapore&lt;/a&gt; and getting my Msc. degree in Computer Control and Automation in Feb, 2022. Before that, I received my B.Eng in Automation from &lt;a href=&quot;https://www.hfut.edu.cn/&quot;&gt;Hefei University of Technology(HFUT), China&lt;/a&gt; in Jun, 2020. Previously, I tried to explore many fields and conducted a preliminary look, such as &lt;a href=&quot;/2018/01/25/teleoperated-car-based-on-EEG/&quot; title=&quot;Electroencephalography(EEG) interaction&quot;&gt;Electroencephalography(EEG) interaction&lt;/a&gt;, &lt;a href=&quot;/2018/01/25/hexapod-robot/&quot; title=&quot;hexopod robot&quot;&gt;hexopod robot&lt;/a&gt;, computer vision and &lt;a href=&quot;/2018/01/25/deep-reinforcement-learning/&quot; title=&quot;reinforcement learning&quot;&gt;reinforcement learning&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Recently, I am doing research on the filed of Human-Robot-Interaction(HRI) based on manipulator, such as &lt;a href=&quot;/2021/04/01/human-robot-interaction/&quot; title=&quot;handover&quot;&gt;handover&lt;/a&gt; and collision avoidance based on proximity sensors. And now I am finding a Research Assistant or PhD position. If you are interested in me, please feel free to contact me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research interests&lt;/strong&gt;: computer vision, machine learning and human robot interaction.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Human Robot Interaction(Recently)</title>
+    <link href="https://ar-mine.github.io/2022/01/27/human-robot-interaction2/"/>
+    <id>https://ar-mine.github.io/2022/01/27/human-robot-interaction2/</id>
+    <published>2022-01-27T03:47:52.000Z</published>
+    <updated>2022-01-27T15:03:33.495Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Slow-Down-or-Stop-by-using-Proximity-Sensor"><a href="#Slow-Down-or-Stop-by-using-Proximity-Sensor" class="headerlink" title="Slow Down or Stop by using Proximity Sensor"></a>Slow Down or Stop by using Proximity Sensor</h1><div style="padding:5px; float:left"><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/task1-real.gif" width=310px/></div><br/>According to the distance to collision, the robot can do some reactions like slowing down and even stop if it is close enough.<br/><br/><br/><br/><br/><br/><span id="more"></span><hr style="height:3px;background: #333"/><br/><h1 id="Collision-Avoidance-based-on-the-Admittance-Control"><a href="#Collision-Avoidance-based-on-the-Admittance-Control" class="headerlink" title="Collision Avoidance based on the Admittance Control"></a>Collision Avoidance based on the Admittance Control</h1><p>We model the distance to collision as force imposed on the end effector of robot arm and implement an admittance control to make it avoid collision.</p><div style="padding:5px; float:left"><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/task2-real.gif" height=165px/></div><div style="padding:5px; float:left"><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/task2-rviz.gif" height=165px/></div>The attached player is for the full video for above two demos.<iframe src="https://www.youtube.com/embed/-aYnKDmrGJ8" allowfullscreen frameborder="0" height="310," width="620," allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Slow-Down-or-Stop-by-using-Proximity-Sensor&quot;&gt;&lt;a href=&quot;#Slow-Down-or-Stop-by-using-Proximity-Sensor&quot; class=&quot;headerlink&quot; title=&quot;Slow Down or Stop by using Proximity Sensor&quot;&gt;&lt;/a&gt;Slow Down or Stop by using Proximity Sensor&lt;/h1&gt;&lt;div style=&quot;padding:5px; float:left&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/task1-real.gif&quot; width=310px/&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+According to the distance to collision, the robot can do some reactions like slowing down and even stop if it is close enough.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Human Robot Interaction(2021)</title>
+    <link href="https://ar-mine.github.io/2021/04/01/human-robot-interaction/"/>
+    <id>https://ar-mine.github.io/2021/04/01/human-robot-interaction/</id>
+    <published>2021-04-01T06:30:08.000Z</published>
+    <updated>2022-01-27T15:03:33.495Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>This article records 3 human-robot-interaction demos implemented in 2021, which is mainly for the topic of my dissertation.</strong></p><h1 id="Human-Collision-Avoidance-based-on-Global-Skeleton-Detection"><a href="#Human-Collision-Avoidance-based-on-Global-Skeleton-Detection" class="headerlink" title="Human Collision Avoidance based on Global Skeleton Detection"></a>Human Collision Avoidance based on Global Skeleton Detection</h1><p>The left quick glance is a demo for exploring collision avoidance between humans and manipulators through global skeleton detection.(The camera is not shown in the quick glance, but you can see it in the picture of workspace setup.)</p><p>We use Nuitrack to detect skeleton keypoints of human and then model these points to balls which are given collision volume so that Moveit! can plan a trajectory to avoid collision. If there is any potential collision appearing in the trajectory, the manipulator will stop first and replanning a new path then.</p><div style="padding:5px; float:left"><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/human-collision-skeleton-experiment.gif" height=310px/></div><div style="padding:5px; float:right"><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/human-collision-skeleton-setup.jpg" height=310px/></div><span id="more"></span>The attached player is for the full video.<iframe src="https://www.youtube.com/embed/Sf_YErWoBm4" allowfullscreen frameborder="0" height="310," width="620," allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe><hr style="height:3px;background: #333"/><br/><h1 id="GGCNN-guided-Grasping-on-the-Plane-and-for-Handover"><a href="#GGCNN-guided-Grasping-on-the-Plane-and-for-Handover" class="headerlink" title="GGCNN guided Grasping on the Plane and for Handover"></a>GGCNN guided Grasping on the Plane and for Handover</h1><div style="padding:2px; float:left"><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/GGCNN%20plan%20pratical%20grasp.gif" width=300px/></div><div style="padding:2px; float:right;"><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/handover%20stable.gif" width=300px/></div><p>The first quick glance is a demo grasping objects fixed on the plane and the second one is a handover which means that robot tries to grasp from human hand while avoiding to collide with people meanwhile. Both two demos are based on GGCNN, a light-weight network structure that can give best poses for grasping. </p><p>The attached player is for the full video.</p><iframe src="https://www.youtube.com/embed/w83TNKI83qw" allowfullscreen frameborder="0" height="310," width="620," allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe><hr style="height:3px;background: #333"/><br/><h1 id="PBVS-tracking-for-marker-and-hand"><a href="#PBVS-tracking-for-marker-and-hand" class="headerlink" title="PBVS tracking for marker and hand"></a>PBVS tracking for marker and hand</h1><p>The attached player is for the full video.</p><iframe src="https://www.youtube.com/embed/BBpfJdAknTI" allowfullscreen frameborder="0" height="310," width="620," allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;This article records 3 human-robot-interaction demos implemented in 2021, which is mainly for the topic of my dissertation.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Human-Collision-Avoidance-based-on-Global-Skeleton-Detection&quot;&gt;&lt;a href=&quot;#Human-Collision-Avoidance-based-on-Global-Skeleton-Detection&quot; class=&quot;headerlink&quot; title=&quot;Human Collision Avoidance based on Global Skeleton Detection&quot;&gt;&lt;/a&gt;Human Collision Avoidance based on Global Skeleton Detection&lt;/h1&gt;&lt;p&gt;The left quick glance is a demo for exploring collision avoidance between humans and manipulators through global skeleton detection.(The camera is not shown in the quick glance, but you can see it in the picture of workspace setup.)&lt;/p&gt;
+&lt;p&gt;We use Nuitrack to detect skeleton keypoints of human and then model these points to balls which are given collision volume so that Moveit! can plan a trajectory to avoid collision. If there is any potential collision appearing in the trajectory, the manipulator will stop first and replanning a new path then.&lt;/p&gt;
+&lt;div style=&quot;padding:5px; float:left&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/human-collision-skeleton-experiment.gif&quot; height=310px/&gt;
+&lt;/div&gt;
+&lt;div style=&quot;padding:5px; float:right&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/human-collision-skeleton-setup.jpg&quot; height=310px/&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
