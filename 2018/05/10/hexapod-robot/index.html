@@ -5,13 +5,12 @@
 <ol>
 <li>The implementation of simple walking function with multiple processors, and capability of performing the corresponding basic movements according to the instructions of the remote control.</li>
 <li>The implementation of obstacle avoidance with multi-modal perception(foot pressure, gyroscope, point cloud and RGB image).</li>
-<li>The algorithm for walking over uneven surface.<span id="more"></span>
-<h1 id="Components"><a href="#Components" class="headerlink" title="Components"></a>Components</h1><h2 id="Mechanical-modelling-design"><a href="#Mechanical-modelling-design" class="headerlink" title="Mechanical modelling design"></a>Mechanical modelling design</h2>The image below is the 3D model of our hexapod robot which is rendered by <code>Solidworks</code> and we then ordered a set of customized aluminium alloy boards to balance rigidity and lightness.<img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/hexopod-3d-model.png"/>
-Due to the large amount of servo motors to be used(6*3=18!), we chose to use the bus servo to reduce the labour costed on controlling each one. Howerver, we underestimated the weight of total robot and the torque of the servos cannot afford it stablly, which means the robot can only move in a slow speed(brushless motors maybe better but are difficult for us at that time).
-![](https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/hexapod-basic-assembly.jpg)
-<center>Basic hexapod and some deprecated modules</center>
-To minimize the rest of weight, we change the large capacity Lithium battery to small one. But in this way we need to charge more frequently :(</li>
+<li>The algorithm for walking over uneven surface.<span id="more"></span></li>
 </ol>
+<h1 id="Components"><a href="#Components" class="headerlink" title="Components"></a>Components</h1><h2 id="Mechanical-modelling-design"><a href="#Mechanical-modelling-design" class="headerlink" title="Mechanical modelling design"></a>Mechanical modelling design</h2><p>The image below is the 3D model of our hexapod robot which is rendered by <code>Solidworks</code> and we then ordered a set of customized aluminium alloy boards to balance rigidity and lightness.<br><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/hexopod-3d-model.png"/><br>Due to the large amount of servo motors to be used(6*3=18!), we chose to use the bus servo to reduce the labour costed on controlling each one. Howerver, we underestimated the weight of total robot and the torque of the servos cannot afford it stablly, which means the robot can only move in a slow speed(brushless motors maybe better but are difficult for us at that time).<br><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/hexapod-basic-assembly.jpg"></p>
+<center>Basic hexapod and some deprecated modules</center>
+To minimize the rest of weight, we change the large capacity Lithium battery to small one. But in this way we need to charge more frequently :(
+
 <h2 id="Processors"><a href="#Processors" class="headerlink" title="Processors"></a>Processors</h2><p>The master processor in the project is <code>Raspberry 3B+</code> while the slave one is <code>STM32 MCU</code>. The reason using the former one is that it is the most popular embedded PC with good computational power and the largest community so that we can get much infomation and materials about it. The later one is the most common type of MCU we used in the electrical design competition, so we use it. </p>
 <p>The Raspberry is used to process the RGB, point cloud or depth data while the STM32 work with pressure sensors and need to parse the command from master and send specfic control message by <code>Socket</code>. In order to coordinate the different parts of hardware, we installed <code>ROS kinetic</code> on Raspberry and created interface for STM32 part based on <code>ros control</code> as motion controller.</p>
 <h2 id="Sensors"><a href="#Sensors" class="headerlink" title="Sensors"></a>Sensors</h2><p>The sensors shown below were used in the project(the ToF camera was only tried).</p>
@@ -20,7 +19,8 @@ To minimize the rest of weight, we change the large capacity Lithium battery to 
 <center><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/hexapod-tof-camera.png"/></center>
 <center>ToF camera(TI test version)</center>
 
-<h2 id="Algorithms"><a href="#Algorithms" class="headerlink" title="Algorithms"></a>Algorithms</h2><h1 id="Reward"><a href="#Reward" class="headerlink" title="Reward"></a>Reward</h1><ul>
+<h2 id="Algorithms"><a href="#Algorithms" class="headerlink" title="Algorithms"></a>Algorithms</h2><p>To be updated.</p>
+<h1 id="Reward"><a href="#Reward" class="headerlink" title="Reward"></a>Reward</h1><ul>
 <li>Provincial Innovation and Entrepreneurship Training Program for College Students: Excellent</li>
 <li>Third Prize of the 12th iCAN International Contest of innovAtioN, 2018<br><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/hexapod-ican-country.png"><br><img src="https://raw.githubusercontent.com/ar-mine/ar-mine.github.io/images/hexopod-ican.jpg"><center>Thanks for my team members! :)</center></li>
 </ul>
